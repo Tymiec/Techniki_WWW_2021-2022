@@ -1,0 +1,19 @@
+div 
+    {
+        background-color: rgb(9, 78, 138);
+        width: 80%;
+    } 
+    
+    .moj-akapit
+    {
+        background-color: brown
+    }
+    
+    #ostatni-akapit
+    {
+        background-color: chocolate;
+    }
+    p
+    {
+        padding-bottom: 50px;
+    }
