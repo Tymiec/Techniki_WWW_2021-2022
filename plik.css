@@ -17,3 +17,58 @@ div
     {
         padding-bottom: 50px;
     }
+header
+{
+    min-height: 1000px;
+    background-image: url(tlo_main.jpg);
+    background-size: cover;
+    background-repeat: no-repeat; 
+}
+
+body 
+{
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+
+}
+.social-footer 
+{
+    padding: 1rem;
+    background: #8a8a8a;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+      
+.social-footer .social-footer-icons li:last-of-type 
+{
+        margin-right: 0;
+}
+      
+.social-footer .social-footer-icons .fa 
+{
+        font-size: 1.3rem;
+        color: #fefefe;
+}
+      
+.social-footer .social-footer-icons .fa:hover 
+{
+        color: #4a4a4a;
+        transition: color 0.3s ease-in;
+}
+
+.fa-facebook 
+{
+    background: #3B5998;
+}
+
+
+
+      
