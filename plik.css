@@ -47,24 +47,31 @@ header
     overflow: hidden;
 }
 
-.menu a{
+.menu a
+{
     float: left;
     color: white;
     text-align: center;
     padding: 10px 12px;
     font-size: 1.5rem;
     display: none;
+    outline: 1.5px solid #333333;
+    border-radius: 400px;
 }
 
 .menu a:hover {
     background-color: #5789e7ee;
     color: white;
+    border-radius: 500px;
+    outline: 1.5px solid #333333;
 }
 
 .menu a.active{
     background-color: #8fa6cfbd;
     color: white;
     display: block;
+    border-radius: 500px;
+    outline: 1.5px solid #333333;
 }
 
 .menu .icon {
@@ -207,9 +214,13 @@ footer{
     margin-bottom: 10px;
 }
 
-.onas .kafelek{
+.onas .kafelek
+{
     width: 90%;
     margin: 25px auto;
+    border: 1px solid;
+  padding: 10px;
+  box-shadow: 5px 10px #88888860;
 }
 
 .onas img{
@@ -217,9 +228,10 @@ footer{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9)
 }
 
-.kafelek hr{
+.kafelek hr
+{
     margin-bottom: 20px;
-    color: #cd5700;
+    color: #f5f5f5;
     border: 3px solid;
     width: 20%;
 }
