@@ -91,5 +91,55 @@ body
     width: 100%; */
 } 
 
+.menu
+{
+    overflow: hidden;
+    color: #3333339a;
+    background-color: rgba(33, 111, 180, 0.3);
+}
+
+.menu a{
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 10px 12px;
+    font-size: 1.5rem;
+    display: none;
+}
+
+.menu a:hover {
+    background-color: #424242;
+    color: white;
+}
+
+.menu a.active{
+    background-color: #111111;
+    color: white;
+    display: block;
+}
+
+.menu .icon {
+    display: block;
+    float: right;
+}
+
+.menu .icon i{
+    color: white;
+}
+
+.menu.responsive{
+    position: relative;
+}
+.menu.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.menu.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+}
 
       
