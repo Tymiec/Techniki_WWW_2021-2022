@@ -1,6 +1,6 @@
 div 
     {
-        background-color: rgb(9, 78, 138);
+        background-color: rgb(9, 78, 138, 0.3);
         width: 80%;
     } 
     
@@ -19,10 +19,11 @@ div
     }
 header
 {
-    min-height: 1000px;
+    min-height: 100vh;
     background-image: url(tlo_main.jpg);
     background-size: cover;
     background-repeat: no-repeat; 
+
 }
 
 body 
@@ -69,6 +70,26 @@ body
     background: #3B5998;
 }
 
+
+/* Tutaj zaczynaja sie moje cssy */
+
+.kolkodoklikania
+{
+    background-color: #4a4a4a;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 500px;
+    width: 18%;
+    height: 50px;
+    background-color: rgba(124, 124, 124, 0);
+    color: #333333;
+    font-size: large;
+    outline: 1.5px solid #333333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 100px;
+    width: 100%; */
+} 
 
 
       
