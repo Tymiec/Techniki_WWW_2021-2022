@@ -43,7 +43,7 @@ header
 }
 
 .menu {
-    background-color: #303030;
+    background-color: #5789e736;
     overflow: hidden;
 }
 
@@ -57,12 +57,12 @@ header
 }
 
 .menu a:hover {
-    background-color: #424242;
+    background-color: #5789e7ee;
     color: white;
 }
 
 .menu a.active{
-    background-color: #111111;
+    background-color: #8fa6cfbd;
     color: white;
     display: block;
 }
