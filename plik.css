@@ -42,21 +42,22 @@ header
     font-size:large;
 }
 
-.menu {
-    background-color: #5789e736;
+.menu 
+{
+    /* background-color: #5789e7b6; */
     overflow: hidden;
 }
 
 .menu a
 {
-    float: left;
+    margin: 5px 0px;
     color: white;
     text-align: center;
     padding: 10px 12px;
     font-size: 1.5rem;
-    display: none;
+    display: inline-block;
     outline: 1.5px solid #333333;
-    border-radius: 400px;
+    border-radius: 500px;
 }
 
 .menu a:hover {
@@ -69,14 +70,14 @@ header
 .menu a.active{
     background-color: #8fa6cfbd;
     color: white;
-    display: block;
+    display: inline-block;
     border-radius: 500px;
     outline: 1.5px solid #333333;
 }
 
 .menu .icon {
-    display: block;
-    float: right;
+    display: inline-block;
+    /* float: right; */
 }
 
 .menu .icon i{
@@ -94,7 +95,7 @@ header
 
 .menu.responsive a {
     float: none;
-    display: block;
+    display: inline-block;
     text-align: left;
 }
 
@@ -395,7 +396,7 @@ footer{
     }
 
     .menu a{
-        display: block;
+        display: inline-block;
     }
 
     .title h1, h3{
