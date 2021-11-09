@@ -95,11 +95,11 @@ body
 {
     overflow: hidden;
     color: #3333339a;
-    background-color: rgba(33, 111, 180, 0.3);
 }
 
-.menu a{
-    float: left;
+.menu a
+{
+    float: center;
     color: white;
     text-align: center;
     padding: 10px 12px;
@@ -107,36 +107,43 @@ body
     display: none;
 }
 
-.menu a:hover {
+.menu a:hover 
+{
     background-color: #424242;
     color: white;
 }
 
-.menu a.active{
-    background-color: #111111;
+.menu a.active
+{
+    background-color: #11111128;
     color: white;
     display: block;
 }
 
-.menu .icon {
+.menu .icon 
+{
     display: block;
     float: right;
 }
 
-.menu .icon i{
+.menu .icon i
+{
     color: white;
 }
 
-.menu.responsive{
+.menu.responsive
+{
     position: relative;
 }
-.menu.responsive a.icon {
+.menu.responsive a.icon 
+{
     position: absolute;
     right: 0;
     top: 0;
 }
 
-.menu.responsive a {
+.menu.responsive a 
+{
     float: none;
     display: block;
     text-align: left;
