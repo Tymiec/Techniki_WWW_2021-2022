@@ -180,24 +180,6 @@ footer
     color: white;
 }
 
-
-/*Indeks*/
-
-.main-content
-{
-    width: 90%;
-    margin: 20px auto 50px;
-    text-align: center;
-}
-
-.main-content img
-{
-    max-width: 586px;
-    width: 100%;
-    border-radius: 75px;
-
-}
-
 #center
 {
     display: flex;
@@ -217,60 +199,21 @@ footer
     height: auto;
 }
 
-.podpis
-{
-    margin-top: 20px;
-    margin-bottom: 20px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9);
-}
-
-.podpis p
-{
-    padding: 20px;
-}
-
-.main
-{
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-
-.main-info
-{
-    background-color: rgba(205, 87, 0, 0.8);;
-    width: 90%;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9);
-    margin: 0 auto 30px;
-    display: flex;
-    align-items: center;
-    justify-content: center
-}
-
-
-.main-info p
-{
-    text-align: center;
-    padding: 10px 20px;
-}
-
-/*Koniec indeks*/
-
-
 /*O nas*/
 
-.onas
+.wstep
 {
     margin-top: 10px;
     margin-bottom: 10px;
 }
 
-.onas .kafelek
+.wstep .kafelek
 {
     width: 90%;
     margin: 25px auto;
 }
 
-.onas img
+.wstep img
 {
     width: 100%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9)
@@ -282,91 +225,6 @@ footer
     color: #cd5700;
     border: 3px solid;
     width: 20%;
-}
-
-/*O nas koniec*/
-
-/*Podopieczni*/
-
-.podopieczni
-{
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-
-.kot
-{
-    width: 80%;
-    background-color: white;
-    box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.5);
-    margin: 0 auto 30px;
-}
-
-.kot img
-{
-    width: 100%;
-}
-
-.kot p
-{
-    text-align: center;
-    padding: 10px 20px;
-}
-
-/*Podopieczni koniec*/
-
-
-/*Kontakt*/
-
-.kontakt
-{
-    margin-bottom: 10px;
-}
-
-.info
-{
-    margin-left: 5px;
-    margin-bottom: 10px;
-}
-
-
-.kontakt iframe
-{
-    display: block;
-    margin: auto;
-    width: 90%;
-    height: 300px;
-    border: 2px solid lightcyan;
-}
-
-.container input[type=text], textarea 
-{
-    width: 100%;
-    padding: 12px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-    margin-top: 6px;
-    margin-bottom: 16px;
-    resize: vertical;
-}
-
-.container input[type=submit] 
-{
-    background-color: #cd7600;
-    color: white;
-    padding: 12px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-}
-
-.container 
-{
-    margin-top: 10px;
-    border-radius: 5px;
-    background-color: #f2f2f2;
-    padding: 20px;
 }
 
 /*Kontakt koniec*/
@@ -408,36 +266,11 @@ footer
         font-size: 3.5rem;
     }
 
-    .kontakt iframe
-{
-        height: 500px;
-    }
-
-    .container
-{
-        width: 90%;
-        margin-left: auto;
-        margin-right: auto;
-
-    }
+    
 
     body
 {
         font-size: 1.3rem;
-    }
-
-    .podopieczni
-{
-        width: 90%;
-        margin-left: auto;
-        margin-right: auto;
-        text-align: center;
-    }
-
-    .kot
-{
-        display: inline-block;
-        width: 45%;
     }
 
     .main
@@ -487,29 +320,12 @@ footer
         font-size: 5rem;
     }
 
-    .container
-{
-        width: 80%;
-        margin-left: auto;
-        margin-right: auto;
+    
 
-    }
-
-    .info
-{
-        margin-left: 7px;
-        margin-bottom: 10px;
-        margin-top: 10px;
-    }
-
+  
     body
 {
         font-size: 1.7rem;
-    }
-
-    .podopieczni
-{
-        width: 85%;
     }
 
     #iButton
@@ -537,14 +353,8 @@ footer
         font-size: 5.6rem;
     }
 
-    .info
-{
-        margin-left: 10px;
-        margin-bottom: 15px;
-        margin-top: 15px;
-    }
 
-    .onas .kafelek
+    .wstep .kafelek
 {
         width: 45%;
         margin: auto auto;
@@ -564,16 +374,6 @@ footer
     .kafelek hr
 {
         margin-bottom: 30px;
-    }
-
-    .podopieczni
-{
-        width: 80%;
-    }
-
-    .kot
-{
-        width: 32%;
     }
 
     #iButton
@@ -601,24 +401,9 @@ footer
         top: 45%;
     }
 
-    .info
-{
-        margin-left: 20px;
-    }
-
     .kafelek hr
 {
         margin-bottom: 50px;
-    }
-
-    .podopieczni
-{
-        width: 75%;
-    }
-
-    .kot
-{
-        width: 24%;
     }
 
     #iButton
