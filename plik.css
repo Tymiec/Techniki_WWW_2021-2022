@@ -42,6 +42,23 @@ html
     width: 100%; */
 } 
 
+.kolkodoklikaniamapa
+{
+    background-color: #2873c9;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 500px;
+    width: 18%;
+    height: 50px;
+    color: #333333;
+    font-size: large;
+    outline: 1.5px solid #333333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 100px;
+    width: 100%; */
+} 
+
 .malykafelek
 {
     font-size:large;
