@@ -23,14 +23,16 @@
             <a href="o-nas.html">O nas</a>
             <a href="znajdz.html">Znajdź nas</a>
             <a href="kontakt.html">Kontakt</a>
-            <a href="javascript:void(0);" class="icon" onclick="changeMenu()">
+            <a href="javascript:void(0);" class="icon" onclick="zmianaMenu()">
                 <i class="fa fa-bars"></i>
             </a>
         </nav>
         <center>
-        <img src="ikony\logo.PNG" style="width: 15vw; min-width: 300px;">
-        <!-- TODO dorobic klase która zmienia background-color kolka po najechaniu jak w menu -->
-        <a href="znajdz.html"><h1 class="kolkodoklikania">ZNAJDŹ NAS</h1></a>
+        <!-- <img src="ikony\logo.PNG" style="width: 15vw; min-width: 300px;"> -->
+        <img class="logo" src="ikony\logo.PNG">
+
+        <a class="kolkodoklikania" href="znajdz.html"><h1>ZNAJDŹ NAS</h1></a>
+
         </center>
     </header>
     
@@ -105,7 +107,7 @@
 
 
     <script> 
-        function changeMenu() {
+        function zmianaMenu() {
             var x = document.getElementById("menu");
             if (x.className === "menu") {
                 x.className += " responsive";
