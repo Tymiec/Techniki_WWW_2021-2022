@@ -1,4 +1,5 @@
-* {
+* 
+{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -16,7 +17,6 @@ header
     background-image: url(zdjecia/tlo_main.jpg);
     background-size: cover;
     background-repeat: no-repeat; 
-
 }
 
 .kolkodoklikania
@@ -44,79 +44,90 @@ header
 
 .menu 
 {
-    /* background-color: #5789e7b6; */
+    /* background-color: #303030; */
     overflow: hidden;
 }
 
 .menu a
 {
     margin: 5px 0px;
+    float: left;
     color: white;
     text-align: center;
     padding: 10px 12px;
     font-size: 1.5rem;
-    display: inline-block;
+    display: none;
     outline: 1.5px solid #333333;
     border-radius: 500px;
 }
 
-.menu a:hover {
+.menu a:hover 
+{
     background-color: #5789e7ee;
     color: white;
     border-radius: 500px;
     outline: 1.5px solid #333333;
 }
 
-.menu a.active{
+.menu a.active
+{
     background-color: #8fa6cfbd;
     color: white;
-    display: inline-block;
+    display: block;
     border-radius: 500px;
     outline: 1.5px solid #333333;
 }
 
-.menu .icon {
-    display: inline-block;
-    /* float: right; */
+.menu .icon 
+{
+    display: block;
+    float: right;
 }
 
-.menu .icon i{
+.menu .icon i
+{
     color: white;
 }
 
-.menu.responsive{
+.menu.responsive
+{
     position: relative;
 }
-.menu.responsive a.icon {
+.menu.responsive a.icon 
+{
     position: absolute;
     right: 0;
     top: 0;
 }
 
-.menu.responsive a {
+.menu.responsive a 
+{
     float: none;
-    display: inline-block;
+    display: block;
     text-align: left;
 }
 
-
-a{
+a
+{
     text-decoration: none;
     color: #cd5700;
 }
 
-.title{
+.title
+{
     position: relative;
 }
 
-.title div{
+.title div
+{
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
 
-.title h1, h3{
+.title h1, h3
+{
     text-align: center;
     padding: 5px 5px;
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
@@ -128,15 +139,18 @@ a{
 
 }
 
-.title h1{
+.title h1
+{
     font-size: 3.4rem;
 }
 
-.title h3{
+.title h3
+{
     font-size: 2rem;
 }
 
-footer{
+footer
+{
     text-align: center;
     padding: 3px;
     background-color: #303030;
@@ -147,25 +161,29 @@ footer{
 
 /*Indeks*/
 
-.main-content{
+.main-content
+{
     width: 90%;
     margin: 20px auto 50px;
     text-align: center;
 }
 
-.main-content img{
+.main-content img
+{
     max-width: 586px;
     width: 100%;
     border-radius: 75px;
 
 }
 
-#center{
+#center
+{
     display: flex;
     justify-content: center;
 }
 
-#iButton{
+#iButton
+{
     background-color: #cd7600;
     color: white;
     padding: 12px 20px;
@@ -177,30 +195,38 @@ footer{
     height: auto;
 }
 
-.podpis{
+.podpis
+{
     margin-top: 20px;
     margin-bottom: 20px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9);
 }
 
-.podpis p{
+.podpis p
+{
     padding: 20px;
 }
 
-.main{
+.main
+{
     margin-top: 10px;
     margin-bottom: 10px;
 }
 
-.main-info{
-    background-color: white;
+.main-info
+{
+    background-color: rgba(205, 87, 0, 0.8);;
     width: 90%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9);
     margin: 0 auto 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center
 }
 
 
-.main-info p{
+.main-info p
+{
     text-align: center;
     padding: 10px 20px;
 }
@@ -210,7 +236,8 @@ footer{
 
 /*O nas*/
 
-.onas{
+.onas
+{
     margin-top: 10px;
     margin-bottom: 10px;
 }
@@ -219,12 +246,10 @@ footer{
 {
     width: 90%;
     margin: 25px auto;
-    border: 1px solid;
-  padding: 10px;
-  box-shadow: 5px 10px #88888860;
 }
 
-.onas img{
+.onas img
+{
     width: 100%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9)
 }
@@ -232,7 +257,7 @@ footer{
 .kafelek hr
 {
     margin-bottom: 20px;
-    color: #f5f5f5;
+    color: #cd5700;
     border: 3px solid;
     width: 20%;
 }
@@ -241,23 +266,27 @@ footer{
 
 /*Podopieczni*/
 
-.podopieczni{
+.podopieczni
+{
     margin-top: 10px;
     margin-bottom: 10px;
 }
 
-.kot{
+.kot
+{
     width: 80%;
     background-color: white;
     box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.5);
     margin: 0 auto 30px;
 }
 
-.kot img{
+.kot img
+{
     width: 100%;
 }
 
-.kot p{
+.kot p
+{
     text-align: center;
     padding: 10px 20px;
 }
@@ -267,17 +296,20 @@ footer{
 
 /*Kontakt*/
 
-.kontakt{
+.kontakt
+{
     margin-bottom: 10px;
 }
 
-.info{
+.info
+{
     margin-left: 5px;
     margin-bottom: 10px;
 }
 
 
-.kontakt iframe{
+.kontakt iframe
+{
     display: block;
     margin: auto;
     width: 90%;
@@ -285,7 +317,8 @@ footer{
     border: 2px solid lightcyan;
 }
 
-.container input[type=text], textarea {
+.container input[type=text], textarea 
+{
     width: 100%;
     padding: 12px;
     border: 1px solid #ccc;
@@ -296,7 +329,8 @@ footer{
     resize: vertical;
 }
 
-.container input[type=submit] {
+.container input[type=submit] 
+{
     background-color: #cd7600;
     color: white;
     padding: 12px 20px;
@@ -305,7 +339,8 @@ footer{
     cursor: pointer;
 }
 
-.container {
+.container 
+{
     margin-top: 10px;
     border-radius: 5px;
     background-color: #f2f2f2;
@@ -314,207 +349,258 @@ footer{
 
 /*Kontakt koniec*/
 
-@media (min-width: 440px) {
-    .title h1{
+@media (min-width: 440px) 
+{
+    .title h1
+{
         font-size: 4rem;
     }
 
-    .title h3{
+    .title h3
+{
         font-size: 3.5rem;
     }
 
-    #iButton{
+    #iButton
+{
         font-size: 1.5rem;
         width: 50%;
         height: 50px;
     }
 }
 
-@media (min-width: 576px) {
-    .title h1, h3{
+@media (min-width: 576px) 
+{
+    .title h1, h3
+{
         margin-bottom: 20px;
     }
 
-    .title h1{
+    .title h1
+{
         font-size: 4rem;
     }
 
-    .title h3{
+    .title h3
+{
         font-size: 3.5rem;
     }
 
-    .kontakt iframe{
+    .kontakt iframe
+{
         height: 500px;
     }
 
-    .container{
+    .container
+{
         width: 90%;
         margin-left: auto;
         margin-right: auto;
 
     }
 
-    body{
+    body
+{
         font-size: 1.3rem;
     }
 
-    .podopieczni{
+    .podopieczni
+{
         width: 90%;
         margin-left: auto;
         margin-right: auto;
         text-align: center;
     }
 
-    .kot{
+    .kot
+{
         display: inline-block;
         width: 45%;
     }
 
-    .main{
-        width: 90%;
-        margin-left: auto;
-        margin-right: auto;
-        text-align: center;
+    .main
+{
+        display: flex;
+        flex-wrap: wrap;
     }
 
-    .main-info{
-        display: inline-block;
+    .main-info
+{
         width: 45%;
-        height: 500px;
+        margin: 20px auto;
     }
 
-    #iButton{
+    #iButton
+{
         font-size: 1.7rem;
         width: 40%;
         height: 60px;
     }
 }
 
-@media (min-width: 768px) {
-    .menu .icon{
+@media (min-width: 768px) 
+{
+    .menu .icon
+{
         display: none;
     }
 
-    .menu a{
-        display: inline-block;
+    .menu a
+{
+        display: block;
     }
 
-    .title h1, h3{
+    .title h1, h3
+{
         margin-bottom: 35px;
     }
 
-    .title h1{
+    .title h1
+{
         font-size: 6rem;
     }
 
-    .title h3{
+    .title h3
+{
         font-size: 5rem;
     }
 
-    .container{
+    .container
+{
         width: 80%;
         margin-left: auto;
         margin-right: auto;
 
     }
 
-    .info{
+    .info
+{
         margin-left: 7px;
         margin-bottom: 10px;
         margin-top: 10px;
     }
 
-    body{
+    body
+{
         font-size: 1.7rem;
     }
 
-    .podopieczni{
+    .podopieczni
+{
         width: 85%;
     }
 
-    #iButton{
+    #iButton
+{
         width: 35%;
+    }
+
+    .main 
+{
+        margin-right: auto;
+        margin-left: auto;
+        width: 80%;
     }
 }
 
-@media (min-width: 992px) {
-    .title h1{
+@media (min-width: 992px) 
+{
+    .title h1
+{
         font-size: 7rem;
     }
 
-    .title h3{
+    .title h3
+{
         font-size: 5.6rem;
     }
 
-    .info{
+    .info
+{
         margin-left: 10px;
         margin-bottom: 15px;
         margin-top: 15px;
     }
 
-    .onas .kafelek{
+    .onas .kafelek
+{
         width: 45%;
         margin: auto auto;
     }
 
-    .article-row{
+    .article-row
+{
         display: flex;
         margin: 30px auto;
     }
 
-    .article-row:nth-child(2n+1) {
+    .article-row:nth-child(2n+1) 
+{
         flex-direction: row-reverse;
     }
 
-    .kafelek hr{
+    .kafelek hr
+{
         margin-bottom: 30px;
     }
 
-    .podopieczni{
+    .podopieczni
+{
         width: 80%;
     }
 
-    .kot{
+    .kot
+{
         width: 32%;
     }
 
-    #iButton{
+    #iButton
+{
         font-size: 2rem;
         width: 30%;
         height: 70px;
     }
 }
 
-@media (min-width: 1400px) {
-    .title h1{
+@media (min-width: 1400px) 
+{
+    .title h1
+{
         font-size: 10rem;
     }
 
-    .title h3{
+    .title h3
+{
         font-size: 8rem;
     }
 
-    .title div{
+    .title div
+{
         top: 45%;
     }
 
-    .info{
+    .info
+{
         margin-left: 20px;
     }
 
-    .kafelek hr{
+    .kafelek hr
+{
         margin-bottom: 50px;
     }
 
-    .podopieczni{
+    .podopieczni
+{
         width: 75%;
     }
 
-    .kot{
+    .kot
+{
         width: 24%;
     }
 
-    #iButton{
+    #iButton
+{
         font-size: 2.2rem;
         width: 20%;
         height: 70px;

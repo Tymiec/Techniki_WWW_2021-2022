@@ -1,23 +1,22 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pl">
 <head>
     <meta charset="UTF-8">
     <title>Ośrodek AWF</title>
-    <!-- <link rel="icon" href="D:\Repo\TechWWW\logocopy.ico"> -->
-    <link rel="icon" href="https://tymiec.github.io/logocopy.ico">
-    <link rel="stylesheet" href="plik.css">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="author" content="Tymoteusz Białkowski">
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="plik.css">
+    <link rel="icon" href="logocopy.ico">
     <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin="">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
-
 </head>
 <body>
-    
 
-<header class="tloglowne">
-    <center>
+    <header>
         <nav class="menu" id="menu">
             <a href="https://tymiec.github.io/" class="active">Strona główna</a>
             <a href="https://tymiec.github.io/galeria.html">Galeria</a>
@@ -28,17 +27,13 @@
                 <i class="fa fa-bars"></i>
             </a>
         </nav>
+        <center>
         <img src="ikony\logo.PNG" style="width: 15vw; min-width: 300px;">
-     <h1 class="kolkodoklikania">ZNAJDŹ NAS</h1>
-    </center>
-</header>
-<nav>
-
-</nav>
-<main style="background-color: #f5f5f5;">
-    <br>
-    <br>
-<h1>
+        <!-- TODO dorobic klase która zmienia background-color kolka po najechaniu jak w menu -->
+        <a href="tymiec.github.io/znajdz.html"><h1 class="kolkodoklikania">ZNAJDŹ NAS</h1></a>
+        </center>
+    </header>
+    
     <article class="onas">
 
         <div class="article-row">
@@ -89,34 +84,36 @@
         </div>
 
     </article>
-</h1>
-</main>
 
 
-<footer style="background-color: rgba(78, 94, 102, 1); color: rgb(160, 160, 160);">
-    <p></p>
-    <br>
-    <br>
-    <center>
-    <a href="https://www.facebook.com/osrodekawf"><img src="ikony\fblogo.png" width="50" height="50"></a>
-    <a href="https://www.youtube.com/osrodekawf"><img src="ikony\yt.png" width="50" height="50"></a>
-    <a href="https://www.instagram.com/osrodekawf"><img src="ikony\instagramicon.png" width="50" height="50"></a>
-    </center>
-    <p></p>
-    <br>
-    <br>
-    <center>&copy2021 whIT</center>
-   
-</footer>
-<script>
-    function changeMenu() {
-        var x = document.getElementById("menu");
-        if (x.className === "menu") {
-            x.className += " responsive";
-        } else {
-            x.className = "menu";
+
+    <footer style="background-color: rgba(78, 94, 102, 1); color: rgb(160, 160, 160);">
+        <p></p>
+        <br>
+        <br>
+        <center>
+        <a href="https://www.facebook.com/osrodekawf"><img src="ikony\fblogo.png" width="50" height="50"></a>
+        <a href="https://www.youtube.com/osrodekawf"><img src="ikony\yt.png" width="50" height="50"></a>
+        <a href="https://www.instagram.com/osrodekawf"><img src="ikony\instagramicon.png" width="50" height="50"></a>
+        </center>
+        <p></p>
+        <br>
+        <br>
+        <center>&copy2021 whIT</center>
+       
+    </footer>
+
+
+    <script> 
+        function changeMenu() {
+            var x = document.getElementById("menu");
+            if (x.className === "menu") {
+                x.className += " responsive";
+            } else {
+                x.className = "menu";
+            }
         }
-    }
-</script>
+    </script>
+
 </body>
 </html>
