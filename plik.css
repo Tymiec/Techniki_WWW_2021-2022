@@ -148,42 +148,7 @@ html
 a
 {
     text-decoration: none;
-    color: #cd5700;
-}
-
-.title
-{
-    position: relative;
-}
-
-.title div
-{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
-.title h1, h3
-{
-    text-align: center;
-    padding: 5px 5px;
-    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-    border-radius: 25px;
-    border: 1px solid rgba(000, 0, 0, 0.6);
-    background-color: rgba(000, 0, 0, 0.6);
-    margin-bottom: 10px;
-
-}
-
-.title h1
-{
-    font-size: 3.4rem;
-}
-
-.title h3
-{
-    font-size: 2rem;
+    color: #35eb81;
 }
 
 footer
