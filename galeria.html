@@ -15,61 +15,194 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
 </head>
 <body>
+    <style>
+img
+{
+  vertical-align: middle;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.container 
+{
+  position: relative;
+  width: 80%;
+  margin-bottom: 100px;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  /* position: absolute; */
+  /* top: 40%; */
+  width: auto;
+  padding: 20px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next 
+{
+  right: 50;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Container for image text */
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column {
+  float: left;
+  width: 16.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+    </style>
 
     <header>
         <nav class="menu" id="menu">
             <a href="index.html">Strona główna</a>
             <a href="galeria.html"  class="active">Galeria</a>
             <a href="o-nas.html">O nas</a>
-            <a href="znajdz.html">Znajdź nas</a>
             <a href="kontakt.html">Kontakt</a>
             <a href="javascript:void(0);" class="icon" onclick="changeMenu()">
                 <i class="fa fa-bars"></i>
             </a>
         </nav>
         <center>
-        <img src="ikony\logo.PNG" style="width: 15vw; min-width: 300px;">
+        <img class="logo" src="ikony\logo.PNG">
         <!-- TODO dorobic klase która zmienia background-color kolka po najechaniu jak w menu -->
-        <a href="#mapa"><h1 class="kolkodoklikania">DOJAZD</h1></a>
+        <a class="kolkodoklikania" href="#galeria"><h1>GALERIA</h1></a>
         </center>
     </header>
     <br>
-    
+    <div id="galeria">
     <center>
-        <a href="https://maps.google.com/maps/dir//O%C5%9Brodek+Sport%C3%B3w+Wodnych+AWF+-+Znamirowice+Za%C5%82%C4%99%C5%BCe+156,33-312+Znamirowice+-+%C5%81abuz%C3%B3wka+33-318+Znamirowice/@49.7426217,20.7152532,12z/data=!4m5!4m4!1m0!1m2!1m1!1s0x473df3ca56157fd7:0x96b0a5e5d306c6fc"><h1 class="kolkodoklikaniamapa">Prowadź</h1></a>
-        <br>
-        <br>
-        <br>
-        <div id="mapa">
-        <iframe 
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d34675.615766067574!2d20.691062388883967!3d49.75384347090113!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x96b0a5e5d306c6fc!2zT8Wbcm9kZWsgU3BvcnTDs3cgV29kbnljaCBBV0YgLSBabmFtaXJvd2ljZSBaYcWCxJnFvGU!5e0!3m2!1spl!2spl!4v1636506959258!5m2!1spl!2spl" 
-        width="600" 
-        height="450" 
-        style="border:0;" 
-        allowfullscreen="" 
-        loading="lazy">
-        </iframe>
-        <br>
-        <br>
-        <br>
-        <div>
-            W razie problemów z dojazdem,<br> 
-            prosimy o telefon pod numer<br> 
-            +48 728 357 304
-        </div>
-        <br>
-        <br>
+    <h2 style="text-align:center">Galeria zdjęć z Ośrodka</h2>
 
+<div class="container">
+  <div class="mySlides">
+    <div class="numbertext">1 / 6</div>
+    <img src="zdjecia/1glowna.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">2 / 6</div>
+    <img src="zdjecia/2glowna.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">3 / 6</div>
+    <img src="zdjecia/3glowna.jpg" style="width:100%">
+  </div>
+    
+  <div class="mySlides">
+    <div class="numbertext">4 / 6</div>
+    <img src="zdjecia/tlo_main.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">5 / 6</div>
+    <img src="zdjecia/1glowna.jpg" style="width:100%">
+  </div>
+    
+  <div class="mySlides">
+    <div class="numbertext">6 / 6</div>
+    <img src="zdjecia/1glowna.jpg" style="width:100%">
+  </div>
+</center>
+<center>
+  <a class="prev" onclick="plusSlides(-1)">❮</a>
+  <a class="next" onclick="plusSlides(1)">❯</a>
+</center>
+<center>
+  <div class="caption-container">
+    <p id="caption"></p>
+  </div>
+
+  <div class="row">
+    <div class="column">
+      <img class="demo cursor" src="zdjecia/1glowna.jpg" style="width:100%" onclick="currentSlide(1)" alt="Małpia Wyspa">
     </div>
-    </center>
-
-
+    <div class="column">
+      <img class="demo cursor" src="zdjecia/2glowna.jpg" style="width:100%" onclick="currentSlide(2)" alt="Tęcza nad taflą jeziora">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="zdjecia/3glowna.jpg" style="width:100%" onclick="currentSlide(3)" alt="Sztuczne ognie nocą">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="zdjecia/tlo_main.jpg" style="width:100%" onclick="currentSlide(4)" alt="Spokojna tafla jeziora">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="zdjecia/1glowna.jpg" style="width:100%" onclick="currentSlide(5)" alt="Nature and sunrise">
+    </div>    
+    <div class="column">
+      <img class="demo cursor" src="zdjecia/1glowna.jpg" style="width:100%" onclick="currentSlide(6)" alt="Snowy Mountains">
+    </div>
+  </div>
+</div>
+</center>
+</div>
 
     <footer style="background-color: rgba(78, 94, 102, 1); color: rgb(160, 160, 160);">
         <p></p>
         <br>
         <br>
         <center>
+        Woda to nasz żywioł! 
+        <br> 
+        <br>
         <a href="https://www.facebook.com/osrodekawf"><img src="ikony\fblogo.png" width="50" height="50"></a>
         <a href="https://www.youtube.com/osrodekawf"><img src="ikony\yt.png" width="50" height="50"></a>
         <a href="https://www.instagram.com/osrodekawf"><img src="ikony\instagramicon.png" width="50" height="50"></a>
@@ -92,6 +225,37 @@
             }
         }
     </script>
+
+<script>
+    var slideIndex = 1;
+    showSlides(slideIndex);
+    
+    function plusSlides(n) {
+      showSlides(slideIndex += n);
+    }
+    
+    function currentSlide(n) {
+      showSlides(slideIndex = n);
+    }
+    
+    function showSlides(n) {
+      var i;
+      var slides = document.getElementsByClassName("mySlides");
+      var dots = document.getElementsByClassName("demo");
+      var captionText = document.getElementById("caption");
+      if (n > slides.length) {slideIndex = 1}
+      if (n < 1) {slideIndex = slides.length}
+      for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";
+      }
+      for (i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex-1].style.display = "block";
+      dots[slideIndex-1].className += " active";
+      captionText.innerHTML = dots[slideIndex-1].alt;
+    }
+</script>
 
 </body>
 </html>
