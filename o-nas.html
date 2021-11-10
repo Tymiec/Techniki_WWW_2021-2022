@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Ośrodek AWF</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="author" content="Tymoteusz Białkowski">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="plik.css">
+    <link rel="icon" href="logocopy.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin="">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <nav class="menu" id="menu">
+            <a href="index.html">Strona główna</a>
+            <a href="galeria.html">Galeria</a>
+            <a href="o-nas.html" class="active">O nas</a>
+            <a href="znajdz.html">Znajdź nas</a>
+            <a href="kontakt.html">Kontakt</a>
+            <a href="javascript:void(0);" class="icon" onclick="changeMenu()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </nav>
+        <center>
+        <img src="ikony\logo.PNG" style="width: 15vw; min-width: 300px;">
+        <!-- TODO dorobic klase która zmienia background-color kolka po najechaniu jak w menu -->
+        <a href="#mapa"><h1 class="kolkodoklikania">DOJAZD</h1></a>
+        </center>
+    </header>
+    <br>
+    
+    <center>
+        <a href="https://maps.google.com/maps/dir//O%C5%9Brodek+Sport%C3%B3w+Wodnych+AWF+-+Znamirowice+Za%C5%82%C4%99%C5%BCe+156,33-312+Znamirowice+-+%C5%81abuz%C3%B3wka+33-318+Znamirowice/@49.7426217,20.7152532,12z/data=!4m5!4m4!1m0!1m2!1m1!1s0x473df3ca56157fd7:0x96b0a5e5d306c6fc"><h1 class="kolkodoklikaniamapa">Prowadź</h1></a>
+        <br>
+        <br>
+        <br>
+        <div id="mapa">
+        <iframe 
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d34675.615766067574!2d20.691062388883967!3d49.75384347090113!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x96b0a5e5d306c6fc!2zT8Wbcm9kZWsgU3BvcnTDs3cgV29kbnljaCBBV0YgLSBabmFtaXJvd2ljZSBaYcWCxJnFvGU!5e0!3m2!1spl!2spl!4v1636506959258!5m2!1spl!2spl" 
+        width="600" 
+        height="450" 
+        style="border:0;" 
+        allowfullscreen="" 
+        loading="lazy">
+        </iframe>
+        <br>
+        <br>
+        <br>
+        <div>
+            W razie problemów z dojazdem,<br> 
+            prosimy o telefon pod numer<br> 
+            +48 728 357 304
+        </div>
+        <br>
+        <br>
+
+    </div>
+    </center>
+
+
+
+    <footer style="background-color: rgba(78, 94, 102, 1); color: rgb(160, 160, 160);">
+        <p></p>
+        <br>
+        <br>
+        <center>
+        <a href="https://www.facebook.com/osrodekawf"><img src="ikony\fblogo.png" width="50" height="50"></a>
+        <a href="https://www.youtube.com/osrodekawf"><img src="ikony\yt.png" width="50" height="50"></a>
+        <a href="https://www.instagram.com/osrodekawf"><img src="ikony\instagramicon.png" width="50" height="50"></a>
+        </center>
+        <p></p>
+        <br>
+        <br>
+        <center>&copy2021 whIT</center>
+       
+    </footer>
+
+
+    <script> 
+        function changeMenu() {
+            var x = document.getElementById("menu");
+            if (x.className === "menu") {
+                x.className += " responsive";
+            } else {
+                x.className = "menu";
+            }
+        }
+    </script>
+
+</body>
+</html>
