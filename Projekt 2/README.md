@@ -1,8 +1,13 @@
-Projekt zawiera
+## Crime reports
 
-/backend
-/frontend
+# Zawiera foldery
 
+[backend](backend)
+Zawiera stronę serwera
+[frontend](frontend)
+Zawiera stronę którą widzi klient i która służy do komunikacji z backendem
+
+# Instrukcja uruchomienia
 Aby go uruchomić musimy:
     - utworzyć bazę danych o nazwie crime_reports_projekt lub zmienić nazwę w pliku /backend/config/config.json w linijce 5
     - uruchomić serwer na poprawnych portach
@@ -19,8 +24,12 @@ Przygotowana została baza testowa którą wystarczy wgrać, jej nazwa to: crime
 
 Jest tam kilka przygotowanych wezwań czekających na przyjęcie do realizacji i 5 kont testowych wszystkie o tych samych funkcjach.
 
+# Konta do testów
+
 Dane do logowania:
 
+| Badge Number | Email | Hasło |
+| 1 | jake.peralta@nypd.org | haslo | 
 jake.peralta@nypd.org
 haslo
 /////////////////////
@@ -37,4 +46,10 @@ ray.holt@nypd.org
 haslo5
 /////////////////////
 
+
+
 Przycisk logowania został schowany na dole gdyż strona jest przystosowana do jak najszybszego dostępu do formularza dla obywatela.
+
+[Przejdź do projektu](Projekt%2)
+
+##### Zaktualizowano 01.03.2022
