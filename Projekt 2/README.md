@@ -3,8 +3,11 @@
 # Zawiera foldery
 
 [backend](backend)
+
 Zawiera stronę serwera
+
 [frontend](frontend)
+
 Zawiera stronę którą widzi klient i która służy do komunikacji z backendem
 
 # Instrukcja uruchomienia
@@ -36,28 +39,7 @@ Dane do logowania:
 |4|terry.crews@nypd.org  |haslo4 |
 |5|ray.holt@nypd.org     |haslo5 |
 
-| Badge Number | Email | Hasło |
-| 1 | jake.peralta@nypd.org | haslo | 
-jake.peralta@nypd.org
-haslo
-/////////////////////
-amy.santiago@nypd.org
-haslo2
-/////////////////////
-rosa.diaz@nypd.org
-haslo3
-/////////////////////
-terry.crews@nypd.org
-haslo4
-/////////////////////
-ray.holt@nypd.org
-haslo5
-/////////////////////
-
-
-
 Przycisk logowania został schowany na dole gdyż strona jest przystosowana do jak najszybszego dostępu do formularza dla obywatela.
 
-[Przejdź do projektu](Projekt%2)
 
 ##### Zaktualizowano 01.03.2022
