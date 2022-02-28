@@ -11,7 +11,7 @@ Aby go uruchomić musimy:
  - utworzyć bazę danych o nazwie crime_reports_projekt lub zmienić nazwę w pliku /backend/config/config.json w linijce 5
  - uruchomić serwer na poprawnych portach
  - wpisać npm install w konsoli w folderze backend
- - wpisać npm install w konsoli w folderze frontend
+ - wpisać ```bash npm install ``` w konsoli w folderze frontend
  - wpisać npm start w konsoli w folderze backend
  - wpisać npm start w konsoli w folderze frontend
 
