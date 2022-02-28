@@ -28,6 +28,14 @@ Jest tam kilka przygotowanych wezwań czekających na przyjęcie do realizacji i
 
 Dane do logowania:
 
+| |EMAIL                 |HASLO  |
+|-|----------------------|-------|
+|1|jake.peralta@nypd.org |haslo  |
+|2|amy.santiago@nypd.org |haslo2 |
+|3|rosa.diaz@nypd.org    |haslo3 |
+|4|terry.crews@nypd.org  |haslo4 |
+|5|ray.holt@nypd.org     |haslo5 |
+
 | Badge Number | Email | Hasło |
 | 1 | jake.peralta@nypd.org | haslo | 
 jake.peralta@nypd.org
