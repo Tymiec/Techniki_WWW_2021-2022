@@ -10,10 +10,10 @@ Zawiera stronę którą widzi klient i która służy do komunikacji z backendem
 Aby go uruchomić musimy:
  - utworzyć bazę danych o nazwie crime_reports_projekt lub zmienić nazwę w pliku /backend/config/config.json w linijce 5
  - uruchomić serwer na poprawnych portach
- - wpisać npm install w konsoli w folderze backend
- - wpisać ```bash npm install ``` w konsoli w folderze frontend
- - wpisać npm start w konsoli w folderze backend
- - wpisać npm start w konsoli w folderze frontend
+ - wpisać ```npm install``` w konsoli w folderze [backend](backend)
+ - wpisać ```npm install``` w konsoli w folderze [frontend](frontend)
+ - wpisać ```npm start``` w konsoli w folderze [backend](backend)
+ - wpisać ```npm start``` w konsoli w folderze [frontend](frontend)
 
 Po zainstalowaniu potrzebnych pakietów możemy albo pracować na czystej bazie 
 (musimy wtedy stworzyć ręcznie konto za pomocą GET http://localhost:3001/login/hash/%%%%%$ ) zamieniamy %%%%% na haslo dla nowego użytkownika i do bazy wklejamy 
