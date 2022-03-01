@@ -1,12 +1,14 @@
-## Crime reports
+# Crime reports
+Projekt strony internetowej przyjmującej wezwania o pomoc za pomocą przeglądarki www i oferujący możliwość logowania się przez funkcjonariuszy. 
+Mogą oni przyjmować zlecenia, mieć podgląd na aktualne zlecenia oraz zmieniać ich status.
 
-# Zawiera foldery
+## Zawiera foldery
 
 Zawiera stronę serwera: [backend](backend)
 
 Zawiera stronę którą widzi klient i która służy do komunikacji z backendem: [frontend](frontend)
 
-# Instrukcja uruchomienia
+## Instrukcja uruchomienia
 Aby go uruchomić musimy:
  - utworzyć bazę danych o nazwie crime_reports_projekt lub zmienić nazwę w pliku /backend/config/config.json w linijce 5
  - uruchomić serwer na poprawnych portach
@@ -23,7 +25,7 @@ Przygotowana została baza testowa którą wystarczy wgrać, jej nazwa to: crime
 
 Jest tam kilka przygotowanych wezwań czekających na przyjęcie do realizacji i 5 kont testowych wszystkie o tych samych funkcjach.
 
-# Konta do testów
+## Konta do testów
 
 Dane do logowania:
 
