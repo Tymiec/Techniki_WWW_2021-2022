@@ -39,7 +39,4 @@ Dane do logowania:
 
 Przycisk logowania został schowany na dole gdyż strona jest przystosowana do jak najszybszego dostępu do formularza dla obywatela.
 
-
-##### Zaktualizowano 01.03.2022
-
-> Zaktualizowano 01.03.2022
+> Zaktualizowano 02.03.2022

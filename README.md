@@ -10,4 +10,4 @@ Drugi projekt z Technik WWW z wykorzystaniem Reacta i bazy danych
 
 [Przejdź do projektu](Projekt%202)
 
-##### Zaktualizowano 01.03.2022
+> Zaktualizowano 02.03.2022
