@@ -41,3 +41,5 @@ Przycisk logowania został schowany na dole gdyż strona jest przystosowana do j
 
 
 ##### Zaktualizowano 01.03.2022
+
+> Zaktualizowano 01.03.2022
